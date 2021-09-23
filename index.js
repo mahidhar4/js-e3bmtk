@@ -29,7 +29,7 @@ function getValues(obj, rest) {
       }
     }
   }
-  return Object.keys(rest).map((item) => parseInt(item));
+  return Object.keys(rest).map((item) => parseInt(item));//way -1
 }
 
 function getUniqueSortedNumbers(obj) {
